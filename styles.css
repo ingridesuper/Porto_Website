@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: 'Inconsolata', monospace;
 }
 
 ul{
@@ -26,8 +26,39 @@ a{
 }
 
 .content_1{
-    background-color: rgb(223, 207, 190);
-    height:80vh;  
+    background-color: rgba(6,95,164,255);
+    height:80vh; 
+    display: flex; 
+    justify-content: center;
+    align-items:flex-start;
+    gap:60px;
+}
+
+.title{
+    font-size: 14vh;
+    margin-top: 120px;
+    margin-right: 30vh;
+    color:#ced1c6;
+    font-weight: 300;
+}
+
+
+.title_picture_container{
+    background-color:#ced1c6;
+    height: 50vh;
+    width: 40vh;
+    margin-top: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.building_pic{
+    position:relative;
+    height:40vh;
+    width: auto;
+    margin-bottom: 2vh;
+    border: 0.5vh grey;
 }
 
 .content_2{
@@ -61,7 +92,7 @@ dipare o parte din scris si nu stiu de ce
 
 .header,
 .footer{
-    background-color: rgb(239, 182, 90);
+    background-color: #092e63;
     padding:15px;
     height: 3vh;
 }
