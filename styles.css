@@ -13,10 +13,9 @@ body{
 ul{
     display:flex;
     list-style: none;
-    justify-content: space-between;
-    gap: 8px;
-    padding: 0px;
-    margin:0px;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
 }
 
 a{
@@ -24,6 +23,8 @@ a{
     color:white;
     font-weight:bold;
 }
+
+/*it overflows!!*/
 
 .content_1{
     background-color: rgba(6,95,164,255);
@@ -36,7 +37,7 @@ a{
 
 .title{
     font-size: 14vh;
-    margin-top: 120px;
+    margin-top: 13vh;
     margin-right: 30vh;
     color:#ced1c6;
     font-weight: 300;
@@ -44,10 +45,10 @@ a{
 
 
 .title_picture_container{
-    background-color:#ced1c6;
+    background-color: rgba(206, 209, 198, 0.8);
     height: 50vh;
     width: 40vh;
-    margin-top: 100px;
+    margin-top: 10vh;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -92,7 +93,20 @@ dipare o parte din scris si nu stiu de ce
 
 .header,
 .footer{
-    background-color: #092e63;
+    background-color: rgba(6,95,164,255);
     padding:15px;
     height: 3vh;
+}
+
+
+.matisse{
+    height: 4vh;
+    border-radius: 2vh;
+}
+
+.right-links,
+.left-links{
+    display: flex;
+    justify-content: center;
+    gap: 3vh;
 }
