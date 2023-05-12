@@ -4,7 +4,7 @@
 }
 
 body{
-    display: flex;
+   display: flex;
     flex-direction: column; 
     justify-content: space-between;
     font-family: 'Inconsolata', monospace;
@@ -43,6 +43,8 @@ a{
     justify-content: center;  
     gap:0;
 }
+
+/*REZOLVA RESPONSIVENESS-UL*/
 
 .border-left,
 .border-right{
