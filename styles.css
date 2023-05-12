@@ -8,6 +8,8 @@
 body{
    
     font-family: 'Inconsolata', monospace;
+    min-height: 100vh;
+    /*de ce nu merge*/
 }
 
 ul{
@@ -26,11 +28,11 @@ a{
 
 .content_1{
     background-color: rgba(6,95,164,255);
-    height:700px; 
+    height:650px; 
     display: flex; 
     justify-content: center;
     align-items:center;
-    gap:60px;
+    gap:64px;
     
 }
 
@@ -59,32 +61,32 @@ a{
 
 
 .title{
-    font-size: 150px;
-    margin-top: 180px;
-    margin-right: 250px;
+    font-size: 120px;
+    margin-top: 144px;
+    margin-right: 200px;
     color:#ced1c6;
     font-weight: 300;
-    margin-bottom:230px;
+    margin-bottom:184px;
 }
 
 
 .icarus{
-    height:400px;
+    height:320px;
     width: auto;
-    margin-bottom: 80px;
+    margin-bottom: 64px;
 }
 
 .content_2{
     background-color: rgba(6,95,164,255);
-    height: 720px;
+    height: 580px;
     display: flex;
     align-items: center;    
     justify-content: center;
-    gap: 72px;
+    gap: 58px;
 }
 
 .content_3{
-    height: 1000px;
+    height: 800px;
     display:flex;
 }
 
@@ -126,11 +128,11 @@ a{
 .pescado,
 .tat,
 .sol{
-    height: 300px;
-    border-top: 28px white solid;
-    border-left: 28px white solid;
-    border-right: 28px white solid;
-    border-bottom: 56px white solid;
+    height: 280px;
+    border-top: 22px white solid;
+    border-left: 22px white solid;
+    border-right: 22px white solid;
+    border-bottom: 44px white solid;
 
 
 }
@@ -138,8 +140,8 @@ a{
 .header,
 .footer{
     background-color: rgba(6,95,164,255);
-    height: 70px;
-    gap: 20px;
+    height: 65px;
+    gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,14 +150,14 @@ a{
 
 
 .matisse{
-    height: 50px;
-    border-radius: 25px;
+    height: 40px;
+    border-radius: 20px;
 }
 
 .right-links,
 .left-links{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     font-size: 20px;
 }
