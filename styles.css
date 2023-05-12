@@ -33,15 +33,16 @@ a{
     justify-content: center;
     align-items:center;
     gap:60px;
+    border-bottom: 1px white solid;
 }
 
 .title{
     font-size: 14vh;
     margin-top: 13vh;
-    margin-right: 30vh;
+    margin-right: 25vh;
     color:#ced1c6;
     font-weight: 300;
-    margin-bottom:20vh
+    margin-bottom:23vh;
 }
 
 
@@ -71,8 +72,9 @@ a{
 }
 
 .content_2{
-    background-color: rgb(231, 204, 250);
+    background-color: rgba(6,95,164,255);
     height: 50vh;
+    
 }
 
 .content_3{
@@ -82,7 +84,7 @@ a{
 
 .drinks{
     width:30vw;
-    background-color: rgb(219, 248, 185);
+    background-color: rgba(254,84,24,255)
 }
 
 .weather{
@@ -106,6 +108,9 @@ dipare o parte din scris si nu stiu de ce
     background-color: rgba(6,95,164,255);
     padding:15px;
     height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
