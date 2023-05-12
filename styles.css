@@ -136,6 +136,23 @@ a{
     padding-top: 260px;
 }
 
+
+.sangria{
+    width:100px;
+    position: absolute;
+    padding-left: 180px;
+    
+}
+
+.asparagus{
+    position: absolute;
+    width: 200px;
+    padding-top: 300px;
+}
+
+
+
+
 .header{
     position: fixed;
     width:100vw;
@@ -156,6 +173,14 @@ a{
     font-weight: 400;
 }
 
+
+.table-fish{
+    width:330px;
+    position: absolute;
+    padding-left: 350px;
+    padding-bottom: 100px;
+}
+
 .pescado,
 .tat,
 .sol{
@@ -164,9 +189,10 @@ a{
     border-left: 22px white solid;
     border-right: 22px white solid;
     border-bottom: 44px white solid;
-
-
 }
+
+/*FA CUMVA SA NU VINA HEADERUL SUB!!!!!
+    SI SA NU SE OVERLAPUIASCA ALEA!!!! */
 
 .header,
 .footer{
