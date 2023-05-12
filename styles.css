@@ -74,7 +74,10 @@ a{
 .content_2{
     background-color: rgba(6,95,164,255);
     height: 50vh;
-    
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    gap: 5vw;
 }
 
 .content_3{
@@ -100,8 +103,17 @@ a{
 dipare o parte din scris si nu stiu de ce
 */
 
+.pescado,
+.tat,
+.sol{
+    height: 30vh;
+    border-top: 2vh white solid;
+    border-left: 2vh white solid;
+    border-right: 2vh white solid;
+    border-bottom: 4vh white solid;
 
 
+}
 
 .header,
 .footer{
