@@ -84,12 +84,12 @@ a{
 }
 
 .content_3{
-    height: 85vh;
+    height: 1000px;
     display:flex;
 }
 
 .drinks{
-    width:30vw;
+    width:500px;
     background-color: rgba(254,84,24,255);
     display:flex;
  
@@ -98,17 +98,16 @@ a{
 
 
 .weather{
-    width:70vw;
+    flex:1;
     background-color: rgb(200, 228, 236);
 }
 
-/*
+
 .header{
     position: fixed;
-    width: 100vw;
+    width:100vw;
 }
-dipare o parte din scris si nu stiu de ce
-*/
+
 
 .content2_item{
     display:flex;
@@ -139,8 +138,7 @@ dipare o parte din scris si nu stiu de ce
 .header,
 .footer{
     background-color: rgba(6,95,164,255);
-    padding:15px;
-    height: 3vh;
+    height: 70px;
     gap: 20px;
     display: flex;
     justify-content: center;
@@ -159,4 +157,5 @@ dipare o parte din scris si nu stiu de ce
     display: flex;
     justify-content: center;
     gap: 20px;
+    font-size: 20px;
 }
