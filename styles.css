@@ -3,10 +3,10 @@
     padding:0px;
 }
 
+/*AS FACE TOTUL 80% DIN CAT E ACUM*/
+
 body{
-   display: flex;
-    flex-direction: column; 
-    justify-content: space-between;
+   
     font-family: 'Inconsolata', monospace;
 }
 
@@ -15,20 +15,18 @@ ul{
     list-style: none;
     justify-content: center;
     align-items: center;
-    gap: 3vh;
+    gap: 20px;
 }
 
 a{
     text-decoration: none;
     color:white;
-    font-weight:bold;
 }
 
-/*it overflows!!*/
 
 .content_1{
     background-color: rgba(6,95,164,255);
-    height:80vh; 
+    height:700px; 
     display: flex; 
     justify-content: center;
     align-items:center;
@@ -61,28 +59,28 @@ a{
 
 
 .title{
-    font-size: 14vh;
-    margin-top: 13vh;
-    margin-right: 25vh;
+    font-size: 150px;
+    margin-top: 180px;
+    margin-right: 250px;
     color:#ced1c6;
     font-weight: 300;
-    margin-bottom:23vh;
+    margin-bottom:230px;
 }
 
 
 .icarus{
-    height:40vh;
+    height:400px;
     width: auto;
-    margin-bottom: 10vh;
+    margin-bottom: 80px;
 }
 
 .content_2{
     background-color: rgba(6,95,164,255);
-    height: 50vh;
+    height: 720px;
     display: flex;
     align-items: center;    
     justify-content: center;
-    gap: 5vw;
+    gap: 72px;
 }
 
 .content_3{
@@ -129,11 +127,11 @@ dipare o parte din scris si nu stiu de ce
 .pescado,
 .tat,
 .sol{
-    height: 30vh;
-    border-top: 2vh white solid;
-    border-left: 2vh white solid;
-    border-right: 2vh white solid;
-    border-bottom: 4vh white solid;
+    height: 300px;
+    border-top: 28px white solid;
+    border-left: 28px white solid;
+    border-right: 28px white solid;
+    border-bottom: 56px white solid;
 
 
 }
@@ -143,6 +141,7 @@ dipare o parte din scris si nu stiu de ce
     background-color: rgba(6,95,164,255);
     padding:15px;
     height: 3vh;
+    gap: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,13 +150,13 @@ dipare o parte din scris si nu stiu de ce
 
 
 .matisse{
-    height: 4vh;
-    border-radius: 2vh;
+    height: 50px;
+    border-radius: 25px;
 }
 
 .right-links,
 .left-links{
     display: flex;
     justify-content: center;
-    gap: 3vh;
+    gap: 20px;
 }
