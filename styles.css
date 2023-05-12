@@ -103,6 +103,20 @@ a{
 dipare o parte din scris si nu stiu de ce
 */
 
+.content2_item{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-items: center;
+}
+
+.content2_text{
+    color:white;
+    font-size: larger;
+    font-weight: 400;
+}
+
 .pescado,
 .tat,
 .sol{
