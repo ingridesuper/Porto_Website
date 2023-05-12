@@ -106,10 +106,35 @@ a{
 
 }
 
+.table{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position:relative;
+    left:0;
+    top:0;
+}
+
 .tablecloth{
+    position:relative;
+    left:0;
+    top:0;
     width: 700px;
 }
 
+.plate{
+    position:absolute;
+    width: 130px;
+    padding-left:60px;
+    padding-bottom:200px;
+}
+
+.plate2{
+    position:absolute;
+    width: 160px;
+    padding-left:500px;
+    padding-top: 260px;
+}
 
 .header{
     position: fixed;
