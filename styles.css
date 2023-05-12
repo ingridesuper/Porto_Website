@@ -43,7 +43,6 @@ a{
     gap:0;
 }
 
-/*REZOLVA RESPONSIVENESS-UL*/
 
 .border-left,
 .border-right{
@@ -101,6 +100,14 @@ a{
 .weather{
     flex:1;
     background-color: rgb(200, 228, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tablecloth{
+    width: 700px;
 }
 
 
