@@ -68,25 +68,6 @@ a{
 }
 
 
-
-/*.title_picture_container{
-    background-color: rgba(206, 209, 198, 0.8);
-    height: 50vh;
-    width: 40vh;
-    margin-top: 10vh;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.building_pic{
-    position:relative;
-    height:40vh;
-    width: auto;
-    margin-bottom: 2vh;
-    border: 0.5vh grey;
-}*/
-
 .icarus{
     height:40vh;
     width: auto;
