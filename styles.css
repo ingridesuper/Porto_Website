@@ -3,7 +3,6 @@
     padding:0px;
 }
 
-/*AS FACE TOTUL 80% DIN CAT E ACUM*/
 
 body{
    
@@ -113,6 +112,7 @@ a{
     position:relative;
     left:0;
     top:0;
+    padding:50px;
 }
 
 .tablecloth{
@@ -136,6 +136,14 @@ a{
     padding-top: 260px;
 }
 
+.dinner{
+    position: absolute;
+    color: rgba(6,95,164,255);
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 470px;
+}
+
 
 .sangria{
     width:100px;
@@ -150,12 +158,14 @@ a{
     padding-top: 300px;
 }
 
-
-
+.drinks{
+    width: 500px;
+}
 
 .header{
     position: fixed;
     width:100vw;
+    z-index: 100;
 }
 
 
@@ -191,8 +201,7 @@ a{
     border-bottom: 44px white solid;
 }
 
-/*FA CUMVA SA NU VINA HEADERUL SUB!!!!!
-    SI SA NU SE OVERLAPUIASCA ALEA!!!! */
+/*FA CUMVA SA NU SE OVERLAPUIASCA ALEA!!!! */
 
 .header,
 .footer{
