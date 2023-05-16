@@ -99,9 +99,6 @@ a{
 }
 
 
-
-
-
 .weather{
     flex:1;
     background-color: rgb(200, 228, 236);
@@ -223,11 +220,16 @@ a{
     align-items: center;
 }
 
-
+.footer{
+    justify-content: flex-start;
+    height: 55px;
+    padding: 10px;
+}
 
 .matisse{
     height: 40px;
     border-radius: 20px;
+    text-align: center;
 }
 
 .right-links,
@@ -237,3 +239,5 @@ a{
     gap: 15px;
     font-size: 20px;
 }
+
+ 
