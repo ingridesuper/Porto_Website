@@ -160,7 +160,13 @@ a{
 
 .drinks{
     width: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
 
 .header{
     position: fixed;
